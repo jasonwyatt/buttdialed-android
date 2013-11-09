@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              style="@style/ActivityStyle"
+        >
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp">
+        <TextView
+                android:text="Recent Calls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/module_bg"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+        <ListView
+                android:id="@+id/recent_calls_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_bg"
+                android:divider="@drawable/list_divider"
+                android:dividerHeight="2dp"
+                />
+        <TextView
+                android:id="@+id/no_recent_calls"
+                android:text="It looks you haven't called anyone!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:textColor="#666666"
+                android:background="@drawable/list_bg"
+                />
+    </LinearLayout>
+    <TextView
+            android:text="Tap one of the calls above to send them a text apologizing for the butt-dial."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="gravity"
+            android:gravity="center"/>
+</LinearLayout>
+
