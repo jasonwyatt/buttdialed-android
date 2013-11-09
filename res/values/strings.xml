@@ -24,4 +24,10 @@
     <string name="share">Share This App!</string>
     <string name="share_text">Get the \"Butt Dialed\" app to apologize for butt/pocket dials</string>
     <string name="share_subject">Get \"Butt Dialed\" for your Android Device!</string>
+    <string name="prefs_apology_options_screen_title">Apology Message Options</string>
+    <string name="prefs_apology_default_message_title">Default Apology</string>
+    <string name="prefs_apology_options_screen_summary">Pick your default apology message and add new apology message
+        options.
+    </string>
+    <string name="use_sms_app">Send Apology Via...</string>
 </resources>
