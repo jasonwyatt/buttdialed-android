@@ -18,17 +18,17 @@ public class Utils {
         long diff = currentTime - time;
 
         if (diff > DAY * 2) {
-            return String.format("%d days", diff / DAY);
-        } else if (diff > DAY) {
-            return "1 day";
+            return String.format("%d days ago", diff / DAY);
+        } else if (diff > 12 * HOUR) {
+            return "yesterday";
         } else if (diff > HOUR * 2) {
-            return (diff / HOUR) + " hours";
+            return (diff / HOUR) + " hours ago";
         } else if (diff > HOUR) {
-            return "1 hour";
+            return "1 hour ago";
         } else if (diff > MINUTE * 2) {
-            return (diff / MINUTE) + " minutes";
+            return (diff / MINUTE) + " minutes ago";
         } else if (diff > MINUTE) {
-            return "1 minute";
+            return "1 minute ago";
         } else {
             return "just now";
         }

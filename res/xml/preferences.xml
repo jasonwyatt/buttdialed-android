@@ -8,6 +8,9 @@
             android:summary="@string/prefs_use_default_sms_summary"/>
     <PreferenceScreen android:title="@string/prefs_apology_options_screen_title"
             android:summary="@string/prefs_apology_options_screen_summary">
+        <us.jwf.buttdial.widgets.prefs.DefaultMessagePreference
+                android:key="poop"
+                android:title="listthinger"/>
         <ListPreference
                 android:key="default_message"
                 android:title="@string/prefs_apology_default_message_title"
