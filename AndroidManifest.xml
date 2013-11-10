@@ -9,6 +9,8 @@
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application android:theme="@style/AppTheme"
                  android:label="@string/app_name"
@@ -20,6 +22,10 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="us.jwf.actions.APOLOGIZE_TO_LAST" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity android:name=".views.AboutActivity"
@@ -33,5 +39,19 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
+
+        <receiver android:name=".services.Receiver"
+                  android:label="@string/receiver_label"
+                  android:description="@string/receiver_description">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".services.ButtDialDetectorService"
+                 android:label="@string/service_butt_dial_detector_label"
+                 android:description="@string/service_butt_dial_detector_description">
+         </service>
     </application>
 </manifest>
