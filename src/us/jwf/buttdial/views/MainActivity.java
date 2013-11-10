@@ -1,6 +1,7 @@
 package us.jwf.buttdial.views;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,7 +12,11 @@ import android.widget.ListView;
 import us.jwf.buttdial.App;
 import us.jwf.buttdial.R;
 import us.jwf.buttdial.models.Call;
+import us.jwf.buttdial.services.ButtDialDetectorService;
+import us.jwf.buttdial.services.Receiver;
 import us.jwf.buttdial.utils.Logger;
+
+import java.util.List;
 
 public class MainActivity extends Activity {
     App app;
@@ -40,6 +45,23 @@ public class MainActivity extends Activity {
                 app.sms().sendApologySMS(MainActivity.this, clickedCall.number, clickedCall.name);
             }
         });
+
+        startService(new Intent(this, ButtDialDetectorService.class));
+        manageIntent();
+    }
+
+    protected void manageIntent() {
+        Intent i = getIntent();
+        if (i == null || i.getAction() == null) {
+            return;
+        }
+        if (i.getAction().equals(Receiver.ACTION_APOLOGIZE_TO_LAST)) {
+            List<Call> recentCalls = app.calls().getRecentCalls();
+            if (recentCalls.size() > 0) {
+                Call lastCall = recentCalls.get(0);
+                app.sms().sendApologySMS(this, lastCall.number, lastCall.name);
+            }
+        }
     }
 
     @Override
