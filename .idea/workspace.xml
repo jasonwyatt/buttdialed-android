@@ -49,24 +49,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/pref_add_message_dialog_content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java" afterPath="$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java" afterPath="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java" afterPath="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/pref_default_message.xml" afterPath="$PROJECT_DIR$/res/layout/pref_default_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/res/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" readonly="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="" />
     <ignored path="ButtDialed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384066858718" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384058882515" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384070923610" ignored="false" />
     <file path="/strings.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384064112008" ignored="false" />
     <file path="/main.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383518273635" ignored="false" />
     <file path="/Dummy.txt" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384059429255" ignored="false" />
@@ -187,6 +174,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -217,10 +213,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pref_default_message.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pref_default_message.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="26" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.27522936">
+            <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
               <folding />
             </state>
           </provider>
@@ -270,7 +266,6 @@
         <option value="$PROJECT_DIR$/res/drawable/btn.xml" />
         <option value="$PROJECT_DIR$/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/pref_add_message_dialog_content.xml" />
@@ -280,6 +275,7 @@
         <option value="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java" />
         <option value="$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java" />
         <option value="$PROJECT_DIR$/res/layout/pref_default_message.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -878,11 +874,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22198276" sideWeight="0.7591549" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22198276" sideWeight="0.7591549" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24084507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24084507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -892,7 +888,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18606322" sideWeight="0.7591549" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18579628" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2159254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -967,13 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="36" selection-start="12271" selection-end="12271" vertical-scroll-proportion="0.38666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="0.432">
@@ -1087,12 +1076,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="26" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.27522936">
+        <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
