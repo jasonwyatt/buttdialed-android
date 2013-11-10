@@ -33,12 +33,13 @@ public class SMSController {
             public void onClick(DialogInterface dialog, int which) {
                 if (app.settings().useDefaultSMS()) {
                     SmsManager sms = SmsManager.getDefault();
-                    sms.sendTextMessage(toNumber, null, app.getResources().getString(R.string.apology_content), null, null);
+                    sms.sendTextMessage(toNumber, null, app.settings().getDefaultMessage(), null, null);
                     Toast.makeText(app.getBaseContext(), R.string.apology_sent_toast, Toast.LENGTH_LONG).show();
                 } else {
-                    Intent smsIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("sms:"+toNumber));
-                    smsIntent.putExtra("sms_body", app.getResources().getString(R.string.apology_content));
-                    context.startActivity(Intent.createChooser(smsIntent, app.getResources().getString(R.string.sms_app_chooser_title)));
+                    Intent smsIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("sms:"+toNumber));
+                    smsIntent.putExtra("address", toNumber);
+                    smsIntent.putExtra("sms_body", app.settings().getDefaultMessage());
+                    context.startActivity(Intent.createChooser(smsIntent, app.getString(R.string.sms_app_chooser_title)));
                 }
             }
         });

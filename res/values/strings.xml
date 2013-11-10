@@ -24,4 +24,24 @@
     <string name="share">Share This App!</string>
     <string name="share_text">Get the \"Butt Dialed\" app to apologize for butt/pocket dials</string>
     <string name="share_subject">Get \"Butt Dialed\" for your Android Device!</string>
+    <string name="prefs_apology_options_screen_title">Apology Message Options</string>
+    <string name="prefs_apology_default_message_title">Default Apology</string>
+    <string name="prefs_apology_options_screen_summary">Pick your default apology message and add new apology message
+        options.
+    </string>
+    <string name="use_sms_app">Send Apology Via...</string>
+    <string name="add_apology_option">Add Apology</string>
+    <string name="pref_new_apology_dialog_label">Enter your apology message here:</string>
+    <string name="pref_new_apology_hint">Your apology...</string>
+    <string name="pref_new_apology_positive_button">Add it!</string>
+    <string name="pref_new_apology_negative_button">Cancel</string>
+    <string name="pref_default_message_preference_title">Default Apology Message</string>
+    <string name="pref_default_message_preference_summary">Select one of the apologies below as your default butt dial
+        apology, or click the button to add a new apology option.
+    </string>
+    <string name="pref_new_apology_dialog_title">Add apology option...</string>
+    <string name="pref_remove_apology_dialog_title">Select an apology to remove...</string>
+    <string name="remove_apology_option">Remove Apology</string>
+    <string name="pref_add_remove_header">Add Or Remove Apology Options</string>
+    <string name="pref_add_remove_summary">You can add your own apology options!</string>
 </resources>

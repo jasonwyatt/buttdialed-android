@@ -41,7 +41,7 @@
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="ButtDialed" />
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
@@ -49,14 +49,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="" />
+    <list default="true" readonly="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="" />
     <ignored path="ButtDialed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383708883139" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383713984527" ignored="false" />
-    <file path="/strings.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706915904" ignored="false" />
+    <file path="/fragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384066858718" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384070923610" ignored="false" />
+    <file path="/strings.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384064112008" ignored="false" />
     <file path="/main.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383518273635" ignored="false" />
-    <file path="/Dummy.txt" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706531749" ignored="false" />
+    <file path="/Dummy.txt" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384059429255" ignored="false" />
     <file path="/App.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383705935120" ignored="false" />
     <file path="/Log.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383519017192" ignored="false" />
     <file path="/MainActivity.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706817365" ignored="false" />
@@ -73,17 +73,23 @@
     <file path="/Call.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383524590412" ignored="false" />
     <file path="/CallLogAdapter.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383532264178" ignored="false" />
     <file path="/calllog_item.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383533938029" ignored="false" />
-    <file path="/Utils.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383533185747" ignored="false" />
-    <file path="/SMSController.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383709368306" ignored="false" />
+    <file path="/Utils.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384025554498" ignored="false" />
+    <file path="/SMSController.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384023515028" ignored="false" />
     <file path="/list_bg.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383533890734" ignored="false" />
     <file path="/list_divider.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383534603944" ignored="false" />
-    <file path="/SettingsController.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383708896078" ignored="false" />
-    <file path="/preferences.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706947748" ignored="false" />
+    <file path="/SettingsController.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384069650329" ignored="false" />
+    <file path="/preferences.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384065323307" ignored="false" />
     <file path="/SettingsActivity.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706519733" ignored="false" />
     <file path="/settings_activity.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706656764" ignored="false" />
-    <file path="/SettingsFragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383708793347" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/us/jwf/buttdial/R.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383715643264" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/us/jwf/buttdial/BuildConfig.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383749860937" ignored="false" />
+    <file path="/SettingsFragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384020700465" ignored="false" />
+    <file path="/DefaultMessagePreference.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384070641569" ignored="false" />
+    <file path="/pref_default_message.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384070556646" ignored="false" />
+    <file path="/pref_default_message_list_item.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384067373677" ignored="false" />
+    <file path="/btn.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384058522944" ignored="false" />
+    <file path="/dimension.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384057462008" ignored="false" />
+    <file path="/colors.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384058599751" ignored="false" />
+    <file path="/pref_add_message_dialog_content.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384064144383" ignored="false" />
+    <file path="/PrefReadyListView.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384067691873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,22 +150,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main_activity.xml">
+      <file leaf-file-name="DefaultMessagePreference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="54" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="120" column="54" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3721#4229#0" expanded="true" />
+                <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#4797#5047#0" expanded="true" />
+                <element signature="e#5036#5037#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/MainActivity.java">
+      <file leaf-file-name="PreferenceScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="10" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
+            <state line="86" column="48" selection-start="3626" selection-end="3626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,7 +177,16 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="610" selection-end="610" vertical-scroll-proportion="0.392">
+            <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.6">
               <folding />
             </state>
           </provider>
@@ -177,7 +195,7 @@
       <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="67" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="-10.4">
               <folding />
             </state>
           </provider>
@@ -186,25 +204,19 @@
       <file leaf-file-name="SettingsController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="65" column="40" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1390#1398#0" expanded="true" />
+                <element signature="e#2723#2731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SMSController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SMSController.java">
+      <file leaf-file-name="pref_default_message.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="133" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/about_activity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+            <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
               <folding />
             </state>
           </provider>
@@ -213,21 +225,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/AboutActivity.java">
+      <file leaf-file-name="pref_default_message_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="70" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+            <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="-6.1538463">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -243,24 +249,32 @@
     <option name="KEY_ALIAS" value="jwf_key" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/calllog_item.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_activity.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/list_divider.xml" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/App.java" />
-        <option value="$PROJECT_DIR$/res/layout/settings_activity.xml" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/res/menu/main_activity_actions.xml" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/MainActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java" />
         <option value="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SMSController.java" />
-        <option value="$PROJECT_DIR$/res/layout/about_activity.xml" />
-        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/res/values/dimension.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/pref_add_message_dialog_content.xml" />
+        <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml" />
+        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/PrefReadyListView.java" />
+        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java" />
+        <option value="$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java" />
+        <option value="$PROJECT_DIR$/res/layout/pref_default_message.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
@@ -270,7 +284,7 @@
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -296,6 +310,71 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.jwf.buttdial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.jwf.buttdial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets.prefs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.jwf.buttdial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,6 +408,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="buttdial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttdial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prefs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,6 +534,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -498,14 +603,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtDialed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +646,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/ButtDialed.apk" />
-    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="ButtDialed" />
@@ -525,11 +656,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -573,19 +705,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -611,6 +730,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -681,8 +813,27 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="ButtDialed-Settings" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="ButtDialed" />
+      <option name="ACTIVITY_CLASS" value="us.jwf.buttdial.views.SettingsActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.ButtDialed" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.ButtDialed-Settings" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -707,6 +858,7 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -717,14 +869,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="830" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22198276" sideWeight="0.7591549" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24084507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -734,14 +888,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18579628" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2159254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19010043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -811,90 +963,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1429" column="16" selection-start="56556" selection-end="56556" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/main_activity_actions.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.4">
+        <state line="24" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="0.432">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_activity.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/pref_add_message_dialog_content.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="54" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+        <state line="12" column="34" selection-start="569" selection-end="569" vertical-scroll-proportion="-3.4615386">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="10" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/content/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="778" column="13" selection-start="33693" selection-end="33693" vertical-scroll-proportion="0.58666664" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="49" selection-start="4419" selection-end="4419" vertical-scroll-proportion="0.76" />
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/Preference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="21" selection-start="4960" selection-end="4960" vertical-scroll-proportion="0.33333334" />
+        <state line="162" column="10" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/AbsListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="22" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/ListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="31" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/AdapterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="526" column="0" selection-start="17121" selection-end="17121" vertical-scroll-proportion="-2.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="67" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+        <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="-10.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/SettingsFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
+        <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java">
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="44" column="49" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.81333333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SMSController.java">
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="133" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+        <state line="86" column="48" selection-start="3626" selection-end="3626" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/about_activity.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+        <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="-6.1538463">
           <folding />
         </state>
       </provider>
@@ -902,23 +1046,47 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/platforms/android-18/data/res/drawable-hdpi/divider_horizontal_dark.9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="99" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.3264095">
-          <folding />
+        <state line="65" column="40" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1390#1398#0" expanded="true" />
+            <element signature="e#2723#2731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/views/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+        <state line="120" column="54" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3721#4229#0" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4797#5047#0" expanded="true" />
+            <element signature="e#5036#5037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="610" selection-end="610" vertical-scroll-proportion="0.392">
+        <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
           <folding />
         </state>
       </provider>

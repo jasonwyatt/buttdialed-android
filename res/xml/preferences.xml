@@ -6,4 +6,12 @@
             android:title="@string/prefs_use_default_sms"
             android:defaultValue="true"
             android:summary="@string/prefs_use_default_sms_summary"/>
+    <PreferenceScreen android:title="@string/prefs_apology_options_screen_title"
+            android:summary="@string/prefs_apology_options_screen_summary">
+        <us.jwf.buttdial.widgets.prefs.DefaultMessagePreference
+                android:title="@string/pref_default_message_preference_title"
+                android:summary="@string/pref_default_message_preference_summary"
+                android:selectable="false"
+                />
+    </PreferenceScreen>
 </PreferenceScreen>

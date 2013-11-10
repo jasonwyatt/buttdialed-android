@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_bg_enabled">#66FFFFFF</color>
+    <color name="btn_bg_disabled">#66CCCCCC</color>
+    <color name="btn_bg_pressed">#66DDDDFF</color>
+    <color name="btn_stroke">#AAAAAA</color>
+</resources>
