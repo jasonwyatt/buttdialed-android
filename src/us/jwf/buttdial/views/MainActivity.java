@@ -12,6 +12,7 @@ import android.widget.ListView;
 import us.jwf.buttdial.App;
 import us.jwf.buttdial.R;
 import us.jwf.buttdial.models.Call;
+import us.jwf.buttdial.services.ButtDialDetectorService;
 import us.jwf.buttdial.services.Receiver;
 import us.jwf.buttdial.utils.Logger;
 
@@ -45,6 +46,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        startService(new Intent(this, ButtDialDetectorService.class));
         manageIntent();
     }
 
