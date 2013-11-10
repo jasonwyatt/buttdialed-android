@@ -34,7 +34,7 @@ public class SettingsController {
     }
 
     public Set<String> getMessageOptions() {
-        return prefs.getStringSet(PREF_MESSAGE_OPTIONS, getDefaultMessageOptionsSet());
+        return new HashSet<String>(prefs.getStringSet(PREF_MESSAGE_OPTIONS, getDefaultMessageOptionsSet()));
     }
 
     public String[] getMessageOptionsArray() {
@@ -51,7 +51,7 @@ public class SettingsController {
     }
 
     public void setMessageOptions(Set<String> messageOptions) {
-        prefs.edit().putStringSet(PREF_USE_DEFAULT_SMS, messageOptions).commit();
+        prefs.edit().putStringSet(PREF_MESSAGE_OPTIONS, new HashSet<String>(messageOptions)).commit();
     }
 
     public void addMessageOption(String message) {
@@ -62,7 +62,14 @@ public class SettingsController {
 
     public void removeMessageOption(String message) {
         Set<String> options = getMessageOptions();
+        if (options.size() == 1) {
+            // cannot delete last option.
+            return;
+        }
         options.remove(message);
+        if (message.equals(getDefaultMessage())) {
+            setDefaultMessage((String)options.toArray()[0]);
+        }
         setMessageOptions(options);
     }
 

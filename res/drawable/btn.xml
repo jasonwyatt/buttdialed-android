@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_enabled"/>
+        </shape>
+    </item>
+    <item android:state_window_focused="false" android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_disabled"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_pressed"/>
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_enabled"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_enabled"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_disabled"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_corner_radius"/>
+            <stroke android:color="@color/btn_stroke" android:width="@dimen/btn_stroke_width" />
+            <padding android:bottom="@dimen/btn_padding" android:left="@dimen/btn_padding" android:right="@dimen/btn_padding" android:top="@dimen/btn_padding"/>
+            <solid android:color="@color/btn_bg_disabled"/>
+        </shape>
+    </item>
+</selector>

@@ -21,11 +21,8 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.preferences);
-
         app = (App) getActivity().getApplicationContext();
-
-        defaultMessage = (ListPreference)findPreference(SettingsController.PREF_DEFAULT_MESSAGE);
+        addPreferencesFromResource(R.xml.preferences);
     }
 
     @Override
@@ -43,10 +40,6 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
     }
 
     protected void updatePrefs() {
-        defaultMessage.setEntries(app.settings().getMessageOptionsArray());
-        defaultMessage.setEntryValues(app.settings().getMessageOptionsArray());
-        defaultMessage.setSummary("\""+ app.settings().getDefaultMessage() + "\"");
-        defaultMessage.setValue(app.settings().getDefaultMessage());
     }
 
     @Override

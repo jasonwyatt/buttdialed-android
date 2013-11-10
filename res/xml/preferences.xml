@@ -9,11 +9,9 @@
     <PreferenceScreen android:title="@string/prefs_apology_options_screen_title"
             android:summary="@string/prefs_apology_options_screen_summary">
         <us.jwf.buttdial.widgets.prefs.DefaultMessagePreference
-                android:key="poop"
-                android:title="listthinger"/>
-        <ListPreference
-                android:key="default_message"
-                android:title="@string/prefs_apology_default_message_title"
+                android:title="@string/pref_default_message_preference_title"
+                android:summary="@string/pref_default_message_preference_summary"
+                android:selectable="false"
                 />
     </PreferenceScreen>
 </PreferenceScreen>
