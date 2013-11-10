@@ -49,14 +49,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="" />
+    <list default="true" id="268ebdf3-86b6-46d2-a557-865f2014a2e5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ButtDialed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384066858718" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384070923610" ignored="false" />
     <file path="/strings.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384064112008" ignored="false" />
     <file path="/main.xml" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383518273635" ignored="false" />
-    <file path="/Dummy.txt" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384059429255" ignored="false" />
+    <file path="/Dummy.txt" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1384071691593" ignored="false" />
     <file path="/App.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383705935120" ignored="false" />
     <file path="/Log.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383519017192" ignored="false" />
     <file path="/MainActivity.java" changelist="268ebdf3-86b6-46d2-a557-865f2014a2e5" time="1383706817365" ignored="false" />
@@ -154,13 +157,7 @@
         <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="120" column="54" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3721#4229#0" expanded="true" />
-                <element signature="e#4218#4219#0" expanded="true" />
-                <element signature="e#4797#5047#0" expanded="true" />
-                <element signature="e#5036#5037#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +174,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
+            <state line="16" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="0.5647059">
               <folding />
             </state>
           </provider>
@@ -186,7 +183,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.6">
+            <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,7 +192,7 @@
       <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="-10.4">
+            <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,10 +202,7 @@
         <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="65" column="40" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1390#1398#0" expanded="true" />
-                <element signature="e#2723#2731#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,7 +210,7 @@
       <file leaf-file-name="pref_default_message.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
+            <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,7 +222,7 @@
       <file leaf-file-name="pref_default_message_list_item.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="-6.1538463">
+            <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -657,11 +651,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -705,6 +699,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -730,19 +737,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -874,9 +868,8 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22198276" sideWeight="0.7591549" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22166428" sideWeight="0.7591549" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24084507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -889,11 +882,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18579628" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2159254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19010043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -982,51 +976,41 @@
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/Preference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="10" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.52">
-          <folding />
-        </state>
+        <state line="162" column="10" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.52" />
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/AbsListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="22" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="90" column="22" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/ListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="31" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="72" column="31" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/widget/AdapterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="526" column="0" selection-start="17121" selection-end="17121" vertical-scroll-proportion="-2.44">
-          <folding />
-        </state>
+        <state line="526" column="0" selection-start="17121" selection-end="17121" vertical-scroll-proportion="-2.44" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="-10.4">
+        <state line="13" column="40" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.6">
+        <state line="41" column="46" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="49" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.81333333">
-          <folding />
-        </state>
+        <state line="44" column="49" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.81333333" />
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/android-sdk/r22.0.4/sources/android-18/android/preference/PreferenceScreen.java">
@@ -1038,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="-6.1538463">
+        <state line="21" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1054,29 +1038,20 @@
     <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/controllers/SettingsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="40" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1390#1398#0" expanded="true" />
-            <element signature="e#2723#2731#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/us/jwf/buttdial/widgets/prefs/DefaultMessagePreference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="120" column="54" selection-start="4174" selection-end="4174" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3721#4229#0" expanded="true" />
-            <element signature="e#4218#4219#0" expanded="true" />
-            <element signature="e#4797#5047#0" expanded="true" />
-            <element signature="e#5036#5037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/pref_default_message.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.6153846">
+        <state line="41" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1086,7 +1061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23529412">
+        <state line="16" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="0.5647059">
           <folding />
         </state>
       </provider>
