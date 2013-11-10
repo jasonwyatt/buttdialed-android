@@ -44,4 +44,11 @@
     <string name="remove_apology_option">Remove Apology</string>
     <string name="pref_add_remove_header">Add Or Remove Apology Options</string>
     <string name="pref_add_remove_summary">You can add your own apology options!</string>
+    <string name="receiver_label">Outgoing Call Receiver</string>
+    <string name="receiver_description">The tool Butt Dialed uses to detect outgoing calls.</string>
+    <string name="service_butt_dial_detector_label">Butt Dial Detector Service</string>
+    <string name="service_butt_dial_detector_description">Listens for call state and tries to detect butt-dials.
+    </string>
+    <string name="notification_title">Butt Dialed Noticed A Call</string>
+    <string name="notification_text">Click if you think this was a butt dial.</string>
 </resources>

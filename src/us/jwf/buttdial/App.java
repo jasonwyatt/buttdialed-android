@@ -1,9 +1,11 @@
 package us.jwf.buttdial;
 
 import android.app.Application;
+import android.content.Intent;
 import us.jwf.buttdial.controllers.CallLogController;
 import us.jwf.buttdial.controllers.SMSController;
 import us.jwf.buttdial.controllers.SettingsController;
+import us.jwf.buttdial.services.ButtDialDetectorService;
 import us.jwf.buttdial.utils.Logger;
 import us.jwf.buttdial.utils.ViewUtils;
 
@@ -29,6 +31,8 @@ public class App extends Application {
         calls = new CallLogController(this);
         sms = new SMSController(this);
         settings = new SettingsController(this);
+
+        startService(new Intent(this, ButtDialDetectorService.class));
     }
 
     public ViewUtils views() {
