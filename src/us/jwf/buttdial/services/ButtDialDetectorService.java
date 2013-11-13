@@ -23,12 +23,17 @@ public class ButtDialDetectorService extends Service {
     public static int NOTIFICATION_ID = 1;
     private App app;
     private TelephonyManager telephonyManager;
-    private PhoneStateListener listener = new PhoneStateListener(){
+    private boolean wasIncoming;
+    private PhoneStateListener listener = new PhoneStateListener() {
         @Override
         public void onCallStateChanged(int state, String incomingNumber) {
-            Logger.i("ButtDialDetectorService.listener.onCallStateChanged("+state+", "+incomingNumber+")");
+            Logger.i("ButtDialDetectorService.listener.onCallStateChanged(" + state + ", " + incomingNumber + ")");
             switch (state) {
+                case TelephonyManager.CALL_STATE_RINGING:
+                    wasIncoming = true;
+                    break;
                 case TelephonyManager.CALL_STATE_IDLE:
+                    wasIncoming = false;
                     if (incomingNumber == null || incomingNumber.isEmpty()) handleOutgoingCallEnd();
                     break;
                 case TelephonyManager.CALL_STATE_OFFHOOK:
@@ -37,6 +42,7 @@ public class ButtDialDetectorService extends Service {
             }
         }
     };
+
     private boolean callStarted;
     private NotificationManager notificationManager;
     private Notification notification;
@@ -85,7 +91,7 @@ public class ButtDialDetectorService extends Service {
 
     public void handleOutgoingCallBegin() {
         Logger.i("ButtDialDetectorService.handleOutgoingCallBegin()");
-        callStarted = true;
+        callStarted = !wasIncoming;
         callStartTime = System.currentTimeMillis();
     }
 
