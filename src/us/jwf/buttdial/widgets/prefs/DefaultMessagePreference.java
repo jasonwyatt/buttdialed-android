@@ -17,7 +17,7 @@ import us.jwf.buttdial.R;
 /**
  *
  */
-public class DefaultMessagePreference extends Preference implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
+public class DefaultMessagePreference extends Preference implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
     private Activity activity;
     private App app;
     private View view;
@@ -94,13 +94,14 @@ public class DefaultMessagePreference extends Preference implements View.OnClick
             RadioButton button = new RadioButton(getContext());
             button.setText(messageOptions[i]);
             button.setTag(messageOptions[i]);
+            button.setId(i);
             if (app.settings().getDefaultMessage().equals(messageOptions[i])) {
                 buttonToCheck = button;
             }
             radioGroup.addView(button);
         }
         buttonToCheck.setChecked(true);
-        buttonToCheck.setOnCheckedChangeListener(this);
+        radioGroup.setOnCheckedChangeListener(this);
 
         removeOptionButton.setEnabled(messageOptions.length != 1);
     }
@@ -146,11 +147,13 @@ public class DefaultMessagePreference extends Preference implements View.OnClick
     }
 
     @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        if (!isChecked) {
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        View v = group.findViewById(checkedId);
+        if (!(v instanceof RadioButton)) {
             return;
         }
-        String message = (String) buttonView.getTag();
+        RadioButton b = (RadioButton) v;
+        String message = (String) b.getTag();
         app.settings().setDefaultMessage(message);
     }
 }
